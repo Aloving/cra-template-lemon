@@ -1,4 +1,4 @@
-import { HttpStatus } from '../enums/HttpStatus';
+import { HttpStatus } from './enums/HttpStatus';
 import {
   IAuthTransport,
   IHttpTransport,

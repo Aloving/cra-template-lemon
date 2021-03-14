@@ -1,1 +1,3 @@
-export interface IStoreState {}
+export interface IStoreState {
+  testValue: string;
+}

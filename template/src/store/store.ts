@@ -3,7 +3,7 @@ import { applyMiddleware, createStore } from 'redux';
 
 import { rootReducer } from './rootReducer';
 import { rootSaga } from './rootSaga';
-import { api } from '../API';
+import { api } from '../api';
 
 const sagaMiddleware = createSagaMiddleware({
   context: {

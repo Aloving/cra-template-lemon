@@ -7,7 +7,7 @@ export class TestService implements ITestService {
     this._httpTransport = httpTransport;
   }
 
-  test = (createPayload: any) => {
-    return Promise.resolve({})
+  test = () => {
+    return Promise.resolve({});
   };
 }

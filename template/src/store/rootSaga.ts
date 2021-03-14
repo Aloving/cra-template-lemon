@@ -1,4 +1,7 @@
-import { all } from 'redux-saga/effects';
+import { takeLatest } from 'redux-saga/effects';
 
-
-export const rootSaga = function* () {};
+export const rootSaga = function* () {
+  yield takeLatest('TEST', () => {
+    console.log('test');
+  });
+};

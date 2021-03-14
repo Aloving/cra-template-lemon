@@ -1,1 +1,1 @@
-export { IStoreState } from './Store';
+export * from './Store';
